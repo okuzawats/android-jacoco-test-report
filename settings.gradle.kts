@@ -10,9 +10,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://plugins.gradle.org/m2/' }
+        maven(url = "https://plugins.gradle.org/m2/")
     }
 }
 rootProject.name = "Jacoco"
-include ':app'
-include ':another'
+include(":app")
+include(":another")
