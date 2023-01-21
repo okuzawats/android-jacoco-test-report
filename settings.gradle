@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Jacoco"
 include ':app'
+include ':another'
