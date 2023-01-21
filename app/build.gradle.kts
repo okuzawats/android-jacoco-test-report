@@ -5,7 +5,7 @@ plugins {
 }
 
 jacoco {
-    toolVersion = "0.8.4"
+    toolVersion = "0.8.8"
 }
 
 tasks.withType<JacocoReport> {
