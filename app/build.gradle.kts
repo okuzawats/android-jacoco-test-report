@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlinx.kover")
     id("com.dicedmelon.gradle.jacoco-android")
 }
 
